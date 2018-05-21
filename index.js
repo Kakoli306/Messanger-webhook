@@ -1,7 +1,8 @@
 'use strict';
 
-//Import dependencies and set up http server
+const token = process.env.FB_PAGE_ACCESS_TOKEN
 
+//Import dependencies and set up http server
 const
     express = require('express'),
     bodyParser = require('body-parser'),
