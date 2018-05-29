@@ -1,6 +1,5 @@
 'use strict';
 
-const token = process.env.FB_PAGE_ACCESS_TOKEN
 
 //Import dependencies and set up http server
 const
